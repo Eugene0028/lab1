@@ -258,6 +258,12 @@ namespace Tests
 
             Assert.AreEqual(0, expected.CompareTo(obj * obj2));
         }
+
+
+    }
+    [TestClass()]
+    public class VisualTest
+    {
         [TestMethod()]
         public void VisualTest1()
         {
@@ -279,6 +285,5 @@ namespace Tests
             if (obj.MainText == "*") test = 1;
             Assert.AreEqual(1, test);
         }
-
     }
 }
